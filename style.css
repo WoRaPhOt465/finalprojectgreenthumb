@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+li,a{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-weight:bold;
+font-size: 16px;
+color: rgb(0, 0, 0);
+text-decoration: none ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: rgb(86, 170, 86);
+height: 100px;
+
+}
+.nav-title{
+  
+    font-size: 30px;
+
+}
+.nav-bar{
+    list-style: none;
+  
+}
+.nav-bar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-bar li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-bar li a:hover{
+    color: rgb(255, 255, 255);
+}
+.nav-bar li .default-page{
+    transition: all 0.3s ease 0s;
+}
+.nav-bar li .default-page:hover{
+ color: gold;
+}
+
+
+.container{
+width: 100%;
+height: 70%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.swiper{
+    width: 650px;
+position: relative;
+top: 100px;
+
+}
+#one{
+    position: relative;
+    top: 200px;
+
+}
+#two{
+    position: relative;
+    top: 300px;
+
+}
+.pruning-solution{
+
+    position: relative;
+    top: 400px;
+}
+
+
+#three{
+    position: relative;
+    top: 450px;
+
+}
+#four{
+    position: relative;
+    top: 600px;
+
+}
+#five{
+    position: relative;
+    top: 700px;
+
+}
+#six{
+    position: relative;
+    top: 800px;
+
+}
+#seven{
+    position: relative;
+    top: 900px;
+
+}
+#eight{
+    position: relative;
+    top: 1000px;
+}
+
+
+
+.flowers-title{
+    text-align: center;
+    position: relative;
+    top:50px;
+    font-family:'Times New Roman', Times, serif;
+}
+.plant-title{
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-family:'Times New Roman', Times, serif;
+}
+.tree-title{
+    text-align: center;
+    position: relative;
+    top: 250px;
+    font-family:'Times New Roman', Times, serif;
+}
+.pruning-title{
+    text-align: center;
+    position: relative;
+    top:350px;
+    font-family:'Times New Roman', Times, serif;
+}
+.layeringsod-title{
+    text-align: center;
+    position: relative;
+    top:550px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.Backyards-title{
+    text-align: center;
+    position: relative;
+    top: 650px;
+    font-family:'Times New Roman', Times, serif;
+}
+.Mowing-title{
+    text-align: center;
+    position: relative;
+    top: 750px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.Wheel-title{
+    text-align: center;
+    position: relative;
+    top: 850px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.Truck-title{
+    text-align: center;
+    position: relative;
+    top: 950px;
+    font-family:'Times New Roman', Times, serif;
+}
+.footer{
+    display: flex;
+    align-items: center;
+position: relative;
+top: 1100px;
+    background-color: rgb(86, 170, 86);
+height: 80px;
+}
+.footer-text{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+}
+
+.about-des{
+text-align:center;
+position: relative;
+top:90px;
+
+}
+.footer-about{
+    display: flex;
+    align-items: center;
+position: relative;
+top: 400px;
+    background-color: rgb(86, 170, 86);
+height: 80px;
+}
+.contact-text{
+    text-align:center;
+position: relative;
+top:90px;
+}
+.testimonials-text{
+
+position: relative;
+top: 50px;
+}
+.services-text{
+    position: relative;
+top: 50px;
+
+}
+
+.online-est-text{
+    position: relative;
+top: 50px;
+text-align: center;
+}
+
+
+
+.footer-contact{
+    display: flex;
+    align-items: center;
+position: relative;
+top: 400px;
+    background-color: rgb(86, 170, 86);
+height: 80px;
+}
+
+.footer-testimonials{
+    display: flex;
+    align-items: center;
+position: relative;
+top: 200px;
+    background-color: rgb(86, 170, 86);
+height: 80px;
+}
+
+.footer-services{
+    display: flex;
+    align-items: center;
+position: relative;
+top: 200px;
+    background-color: rgb(86, 170, 86);
+height: 80px;
+}
+.footer-online-est{
+    display: flex;
+    align-items: center;
+position: relative;
+top: 200px;
+    background-color: rgb(86, 170, 86);
+height: 80px;
+}
+
+
+
+
+
+
+
+
